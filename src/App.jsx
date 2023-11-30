@@ -1,7 +1,7 @@
 import Partners from "./components/Partners";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Video from "./components/video";
+
 import Roadmap from "./components/Roadmap";
 import HowToUse from "./components/HowToUse";
 import JoinNow from "./components/JoinNow";
@@ -21,7 +21,7 @@ function App() {
       </div>
 
       <div className="py-6 mt-20">
-        <Video />
+      
       </div>
       <div className="py-6 ">
       <Roadmap />

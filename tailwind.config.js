@@ -8,6 +8,7 @@ export default {
     fontFamily: {
       "open-sans": "'Open Sans', sans-serif",
       poppins: "'Poppins', sans-serif",
+      bitsu:'bitsu',
     },
     colors: {
       white: "white",

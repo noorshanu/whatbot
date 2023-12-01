@@ -2,7 +2,7 @@ import React from 'react'
 
 function Tokonomics() {
   return (
-   <section>
+   <section className=' token'>
     <div className='container-wrapper'>
 
         <div>

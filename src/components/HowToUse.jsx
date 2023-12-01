@@ -2,7 +2,7 @@ import React from "react";
 
 function HowToUse() {
   return (
-    <section>
+    <section id="howto">
       <div className="container-wrapper">
         <div>
           <h1 className="text-[#fff] text-5xl  font-bold my-12  ptext uppercase text-center font-bitsu">

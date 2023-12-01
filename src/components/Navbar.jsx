@@ -1,5 +1,7 @@
 import { AiOutlineMenu } from "react-icons/ai";
-
+import { AiOutlineTwitter } from "react-icons/ai";
+import { BiLogoTelegram } from "react-icons/bi";
+import { FaInstagram } from "react-icons/fa";
 import { useState } from "react";
 import { MdClose } from "react-icons/md";
 import { twMerge } from "tailwind-merge";
@@ -14,7 +16,7 @@ export default function Navbar() {
     <nav className="h-navbar  -height fixed top-0 left-0 w-full z-[1000]">
       <header className="nav-color relative">
         <div className="container-wrapper h-[72px] flex items-center justify-between">
-          <a>
+          <a href="/">
             <img
               src="/images/logo.png"
               alt=""
@@ -38,42 +40,45 @@ export default function Navbar() {
             )}
           >
             <a
-              className="font-medium cursor-pointer text-white"
+              className="font-medium cursor-pointer text-white uppercase font-bitsu text-xl"
               onClick={() => setSidebarVisibility(false)}
             >
-              Staking
+              Whitepaper
             </a>
             <a
               onClick={closeSidebar}
-              id="about"
-              className="font-medium cursor-pointer"
-            >
-              About
-            </a>
-
-            <a
-              onClick={closeSidebar}
-              id="how-to-buy"
-              className="font-medium cursor-pointer"
-            >
-              How To Buy
-            </a>
-
-            <a
-              onClick={closeSidebar}
-              id="roadmap"
-              className="font-medium cursor-pointer"
+              href="#roadmap"
+              className="font-medium cursor-pointer uppercase font-bitsu text-xl"
             >
               Roadmap
             </a>
 
             <a
+              href="#token"
+              onClick={closeSidebar}
+              id="how-to-buy"
+              className="font-medium cursor-pointer uppercase font-bitsu text-xl"
+            >
+              Tokenomic
+            </a>
+
+            <a
               onClick={closeSidebar}
               id="faqs"
-              className="font-medium cursor-pointer"
+              href="#howto"
+              className="font-medium cursor-pointer text-white uppercase font-bitsu text-xl"
             >
-              FAQS
+              how to use
             </a>
+
+            <div className="flex justify-start items-center gap-6 py-5">
+              <a
+                href="/"
+                className="btn-main px-8 py-2 mr-4 font-bitsu text-base sm:text-xl"
+              >
+                Launch Bot
+              </a>
+            </div>
 
             {/* <Button className="rounded-md text-sm h-10 mt-4 mb-6 lg:hidden">
               {t("Buy ETHETF Token")}

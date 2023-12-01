@@ -66,7 +66,7 @@ function App() {
         <div className=" mp-6">
           <Partners />
         </div>
-        <div className="py-6 mt-20">
+        <div className="py-6 mt-4 sm:mt-20">
           <SectionVideo />
         </div>
         <div className="py-6 ">

@@ -9,7 +9,7 @@ function Footer() {
     <footer className=' text-center mt-3 sm:mt-8'>
         <img src="images/logo.png" alt="" className=' mx-auto' />
 
-        <div className='flex justify-center items-center gap-6 py-5'>
+        <div className='flex justify-center items-center gap-6 py-5 relative z-50'>
             <a href="/" className=' text-3xl text-white hover:text-[#3557d5] '><AiOutlineTwitter/></a>
             <a href="/" className=' text-3xl text-white hover:text-[#3557d5] '><BiLogoTelegram /></a>
             <a href="/" className=' text-3xl text-white hover:text-[#3557d5]'><FaInstagram /></a>

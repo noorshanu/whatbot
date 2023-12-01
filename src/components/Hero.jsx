@@ -1,5 +1,7 @@
 import React from "react";
-
+import { AiOutlineTwitter } from 'react-icons/ai'
+import { BiLogoTelegram } from "react-icons/bi";
+import { FaInstagram } from "react-icons/fa";
 function Hero() {
   return (
     <section className="hero-main relative">
@@ -17,6 +19,12 @@ function Hero() {
                 <a href="/" className="btn-main px-14 py-3 mr-4 font-bitsu text-base sm:text-xl">Buy Now</a>
                 <a href="/" className="btn-main px-14 py-3 font-bitsu text-base sm:text-xl" > Join us</a>
             </div>
+
+            <div className='flex justify-start items-center gap-6 py-5'>
+            <a href="/" className=' text-3xl text-white hover:text-[#3557d5] '><AiOutlineTwitter/></a>
+            <a href="/" className=' text-3xl text-white hover:text-[#3557d5] '><BiLogoTelegram /></a>
+            <a href="/" className=' text-3xl text-white hover:text-[#3557d5]'><FaInstagram /></a>
+        </div>
           </div>
           <div className=" relative">
             <img src="images/coin-1.png" alt="" className=" mt-0 sm:mt-[20rem] floating" />

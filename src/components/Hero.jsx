@@ -16,8 +16,8 @@ function Hero() {
             </p>
 
             <div className=" py-4 ">
-                <a href="/" className="btn-main px-14 py-3 mr-4 font-bitsu text-base sm:text-xl">Buy Now</a>
-                <a href="/" className="btn-main px-14 py-3 font-bitsu text-base sm:text-xl" > Join us</a>
+                <a href="/" className="btn-main px-7 sm:px-14 py-3 mr-4 font-bitsu text-base sm:text-xl">Buy Now</a>
+                <a href="/" className="btn-main px-7 sm:px-14 py-3 font-bitsu text-base sm:text-xl" > Join us</a>
             </div>
 
             <div className='flex justify-start items-center gap-6 py-5'>

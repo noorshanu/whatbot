@@ -7,6 +7,7 @@ import HowToUse from "./components/HowToUse";
 import JoinNow from "./components/JoinNow";
 import Footer from "./components/Footer";
 import SectionVideo from "./components/SectionVideo";
+import Tokonomics from "./components/Tokonomics";
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
       </div>
 
       <div className="py-6 ">
+      <Tokonomics/>
+      </div>
+
+      <div className="py-6 mb-12">
       <HowToUse/>
       </div>
 

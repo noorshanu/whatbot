@@ -11,8 +11,8 @@ export default function Navbar() {
   const openSidebar = () => setSidebarVisibility(true);
 
   return (
-    <nav className="h-navbar-height fixed top-0 left-0 w-full z-[1000]">
-      <header className="bg-white relative">
+    <nav className="h-navbar  -height fixed top-0 left-0 w-full z-[1000]">
+      <header className="nav-color relative">
         <div className="container-wrapper h-[72px] flex items-center justify-between">
           <a>
             <img
@@ -26,19 +26,19 @@ export default function Navbar() {
 
           <button
             onClick={isSidebarOpen ? closeSidebar : openSidebar}
-            className="flex lg:hidden text-black text-3xl"
+            className="flex lg:hidden text-white text-3xl"
           >
             {isSidebarOpen ? <MdClose /> : <AiOutlineMenu />}
           </button>
 
           <aside
             className={twMerge(
-              "max-lg:fixed bottom-0 right-0 max-lg:w-[320px] max-lg:h-[calc(100vh-72px)] max-lg:bg-text  flex flex-col lg:flex-row lg:items-center lg:space-x-10 max-lg:text-white lg:[&>*]:text-black/60 [&>*]:tracking-[1px] max-lg:p-5 max-lg:[&>a]:py-2 max-lg:[&>a]:border-b max-lg:[&>a]:px-3 max-lg:[&>a]:mb-2 max-lg:[&>a]:uppercase transition-all duration-200 translate-x-[320px] lg:translate-x-0 z-[1000] max-lg:overflow-y-auto",
+              "max-lg:fixed bottom-0 right-0 max-lg:w-[320px] max-lg:h-[calc(100vh-72px)] max-lg:bg-text nav-color  flex flex-col lg:flex-row lg:items-center lg:space-x-10 max-lg:text-white lg:[&>*]:text-white [&>*]:tracking-[1px] max-lg:p-5 max-lg:[&>a]:py-2 max-lg:[&>a]:border-b max-lg:[&>a]:px-3 max-lg:[&>a]:mb-2 max-lg:[&>a]:uppercase transition-all duration-200 translate-x-[320px] lg:translate-x-0 z-[1000] max-lg:overflow-y-auto",
               isSidebarOpen ? "translate-x-0" : null
             )}
           >
             <a
-              className="font-medium cursor-pointer"
+              className="font-medium cursor-pointer text-white"
               onClick={() => setSidebarVisibility(false)}
             >
               Staking

@@ -28,7 +28,7 @@ function Hero() {
           </div>
           <div className=" relative">
             <img src="images/coin-1.png" alt="" className=" mt-0 sm:mt-[20rem] floating" />
-            <img src="images/bot.svg" alt="" className="  h-[400px] block sm:hidden floating" />
+            <img src="images/bot.svg" alt="" className="  h-[300px] block sm:hidden floating" />
 
           </div>
         </div>

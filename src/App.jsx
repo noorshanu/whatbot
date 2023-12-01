@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import Partners from "./components/Partners";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -14,23 +14,23 @@ const StarField = () => {
   const wW = window.innerWidth;
 
   useEffect(() => {
-    const generateStars = n => {
+    const generateStars = (n) => {
       for (let i = 0; i < n; i++) {
-        const div = document.createElement('div');
+        const div = document.createElement("div");
         div.className =
           i % 20 === 0
-            ? 'star star--big'
+            ? "star star--big"
             : i % 9 === 0
-            ? 'star star--medium'
-            : 'star';
+            ? "star star--medium"
+            : "star";
         // random everywhere!
         div.setAttribute(
-          'style',
+          "style",
           `top:${Math.round(Math.random() * wH)}px;left:${Math.round(
             Math.random() * wW
-          )}px;animation-duration:${Math.round(
-            Math.random() * 3000
-          ) + 3000}ms;animation-delay:${Math.round(Math.random() * 3000)}ms;`
+          )}px;animation-duration:${
+            Math.round(Math.random() * 3000) + 3000
+          }ms;animation-delay:${Math.round(Math.random() * 3000)}ms;`
         );
         document.body.appendChild(div);
       }
@@ -40,8 +40,8 @@ const StarField = () => {
 
     // Clean up function to remove stars when the component unmounts
     return () => {
-      const stars = document.querySelectorAll('.star');
-      stars.forEach(star => star.remove());
+      const stars = document.querySelectorAll(".star");
+      stars.forEach((star) => star.remove());
     };
   }, [wH, wW]);
 };
@@ -49,7 +49,6 @@ const StarField = () => {
 function App() {
   return (
     <>
-    
       <Navbar />
       <div className="h-navbar-height"></div>
       <div className="">
@@ -57,33 +56,28 @@ function App() {
       </div>
 
       <div className="bg-2">
-      <div id="stars-group-1"></div>
-<div id="stars-group-2"></div>
-<div id="stars-group-3"></div>
-<div id="stars-group-4"></div>
-<div id="stars-group-5"></div>
-<div id="stars-group-6"></div>
-      <StarField /> {/* Include the StarField component here */}
-      
+        <div id="stars-group-1"></div>
+        <div id="stars-group-2"></div>
+        <div id="stars-group-3"></div>
+        <div id="stars-group-4"></div>
+        <div id="stars-group-5"></div>
+        <div id="stars-group-6"></div>
+        <StarField /> {/* Include the StarField component here */}
         <div className=" mp-6">
           <Partners />
         </div>
-
         <div className="py-6 mt-20">
           <SectionVideo />
         </div>
         <div className="py-6 ">
           <Roadmap />
         </div>
-
         <div className="py-6 ">
           <Tokonomics />
         </div>
-
         <div className="py-6 mb-12">
           <HowToUse />
         </div>
-
         <div className="py-6 ">
           <JoinNow />
         </div>

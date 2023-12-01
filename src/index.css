@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,10 +9,10 @@
   src: url("/fonts/BITSUMIS.TTF");
 }
 
-.poppins{
-  font-family: 'Poppins', sans-serif;
+.poppins {
+  font-family: "Poppins", sans-serif;
 }
-.font-bitsu{
+.font-bitsu {
   font-family: "bitsu";
 }
 
@@ -70,98 +70,105 @@
   }
 }
 
-
-.hero-main{
-  background-image: url('/public/images/hero-image.png');
+.hero-main {
+  background-image: url("/public/images/hero-image.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
 
-.btn-main{
- background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(20,62,90,1) 100%);
--webkit-box-shadow: 0px 14px 13px -10px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 14px 13px -10px rgba(0,0,0,0.75);
-box-shadow: 0px 14px 13px -10px rgba(0,0,0,0.75);
-border: 0.3px solid #666;
-border-radius: 20px;
-
+.btn-main {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(20, 62, 90, 1) 100%
+  );
+  -webkit-box-shadow: 0px 14px 13px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 14px 13px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 14px 13px -10px rgba(0, 0, 0, 0.75);
+  border: 0.3px solid #666;
+  border-radius: 20px;
 }
 
-.nav-color{
-  background: linear-gradient(88deg, rgb(0 3 4) 4.28%, #010B13 17.2%, #010B14 33.91%, #010B14 33.91%, rgb(1 1 1) 72.9%);
- 
+.nav-color {
+  background: linear-gradient(
+    88deg,
+    rgb(0 3 4) 4.28%,
+    #010b13 17.2%,
+    #010b14 33.91%,
+    #010b14 33.91%,
+    rgb(1 1 1) 72.9%
+  );
 }
 
-.btn-main:hover{
-  
- background: radial-gradient(circle,rgba(20,62,90,1)  0%, rgba(63,94,251,1) 100%);
-
- 
- }
-.video-bg{
+.btn-main:hover {
+  background: radial-gradient(
+    circle,
+    rgba(20, 62, 90, 1) 0%,
+    rgba(63, 94, 251, 1) 100%
+  );
+}
+.video-bg {
   border-radius: 46px 46px 0px 0px;
-background: #142735;
+  background: #142735;
 }
 
-.how-card{
+.how-card {
   border-radius: 20px;
-background: #142735;
-box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.25);
-width: 300px;
-height: 300px;
-padding: 40px 40px;
+  background: #142735;
+  box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.25);
+  width: 300px;
+  height: 300px;
+  padding: 40px 40px;
 }
 
-.joinus{
+.joinus {
   border-radius: 20px;
-background: #142735;
-box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.25);
+  background: #142735;
+  box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.25);
 }
 
-
-.bg-2{
-  background-image: url('/public/images/bg-2.svg');
+.bg-2 {
+  background-image: url("/public/images/bg-2.svg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
-
 }
 
-
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
-overflow-x: hidden;
+  overflow-x: hidden;
   position: relative;
- 
 }
 
 .star {
-  width: 3px;
-  height: 3px;
+  width: 2px;
+  height: 2px;
   border-radius: 50%;
   position: absolute;
   background-color: rgba(237, 205, 163, 0.8);
-  box-shadow: 0 0 40px 0 rgba(237, 205, 163, 0.8), 0 0 20px 0 #FFFFFF;
+  box-shadow: 0 0 40px 0 rgba(237, 205, 163, 0.8), 0 0 20px 0 #ffffff;
   animation: glow 5s infinite;
 }
 .star--medium {
-  width: 6px;
-  height: 6px;
+  width: 4px;
+  height: 4px;
 }
 .star--big {
-  width: 9px;
-  height: 9px;
-  box-shadow: 0 0 40px 0 #EDCDA3, 0 0 20px 0 #FFFFFF, inset 0 0 4px #FFFFFF;
+  width: 6px;
+  height: 6px;
+  box-shadow: 0 0 40px 0 #edcda3, 0 0 20px 0 #ffffff, inset 0 0 4px #ffffff;
 }
 
 .comet {
   width: 6px;
   height: 6px;
   background-color: rgba(255, 255, 255, 0.6);
-  box-shadow: 0 0 40px 0 #EDCDA3, 0 0 20px 0 #FFFFFF, inset 0 0 8px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 40px 0 #edcda3, 0 0 20px 0 #ffffff,
+    inset 0 0 8px rgba(255, 255, 255, 0.6);
   top: 0;
   left: 80%;
   opacity: 0.3;
@@ -206,5 +213,24 @@ overflow-x: hidden;
   100% {
     transform: rotate(-45deg) translateX(-100vw);
     opacity: 0;
+  }
+}
+
+
+.floating {
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
   }
 }

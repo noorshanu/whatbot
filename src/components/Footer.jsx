@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
-  <section>
+  <section className='relative'>
     <footer className=' text-center mt-3 sm:mt-8'>
         <img src="images/logo.png" alt="" className=' mx-auto' />
 
@@ -18,6 +18,7 @@ function Footer() {
         Copyright WhatBot - All right reserved
         </p>
     </footer>
+<img src="images/blur.png" alt="" className=' absolute left-0 -bottom-[12%]' />
   </section>
   )
 }

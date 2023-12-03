@@ -40,6 +40,7 @@ export default function Navbar() {
             )}
           >
             <a
+            href="https://drive.google.com/file/d/1wuCwbBg-qhnoovqr1lYCWdyIuLiwUhCd/view?usp=drivesdk" target="_blank"
               className="font-medium cursor-pointer text-white uppercase font-bitsu text-xl"
               onClick={() => setSidebarVisibility(false)}
             >
@@ -56,7 +57,7 @@ export default function Navbar() {
             <a
               href="#token"
               onClick={closeSidebar}
-              id="how-to-buy"
+              
               className="font-medium cursor-pointer uppercase font-bitsu text-xl"
             >
               Tokenomic
@@ -64,7 +65,7 @@ export default function Navbar() {
 
             <a
               onClick={closeSidebar}
-              id="faqs"
+            
               href="#howto"
               className="font-medium cursor-pointer text-white uppercase font-bitsu text-xl"
             >
@@ -73,7 +74,7 @@ export default function Navbar() {
 
             <div className="flex justify-start items-center gap-6 py-5">
               <a
-                href="/"
+                href="https://t.me/Launch_Whatbot" target="_blank"
                 className="btn-main px-8 py-2 mr-4 font-bitsu text-base sm:text-xl"
               >
                 Launch Bot

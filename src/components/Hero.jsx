@@ -38,13 +38,13 @@ function Hero() {
 
             <div className="flex justify-start items-center gap-6 py-5">
               <a
-                href="/"
+                href="https://x.com/whatbotofficial" target="_blank"
                 className=" text-3xl text-white hover:text-[#3557d5] "
               >
                 <AiOutlineTwitter />
               </a>
               <a
-                href="/"
+                href="https://t.me/whatbotchat" target="_blank"
                 className=" text-3xl text-white hover:text-[#3557d5] "
               >
                 <BiLogoTelegram />

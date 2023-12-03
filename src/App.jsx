@@ -70,7 +70,7 @@ function App() {
         <div className="py-6 mt-4 sm:mt-20">
           <SectionVideo />
         </div>
-        <div className="py-6 ">
+        <div className="py-6 sm:py-6 ">
           <Roadmap />
         </div>
         <div className="py-6 ">
@@ -78,9 +78,17 @@ function App() {
         </div>
         <div className="py-6 mt-4 sm:mt-20">
           <section>
-          <div className="container-wrapper relative">
-      <img src="images/smile.png" alt="" className="h-[70px] absolute top-[-5%] LEFT-0 floating"/>
-        <img src="images/smile.png" alt="" className="h-[70px] absolute top-[-5%] right-0 floating"/>
+            <div className="container-wrapper relative">
+              <img
+                src="images/smile.png"
+                alt=""
+                className="h-[70px] absolute top-[-5%] LEFT-0 floating"
+              />
+              <img
+                src="images/smile.png"
+                alt=""
+                className="h-[70px] absolute top-[-5%] right-0 floating"
+              />
               <div className="w-full ">
                 <video
                   autoPlay
@@ -99,7 +107,7 @@ function App() {
         <div className="py-6 mb-12">
           <HowToUse />
         </div>
-{/* 
+        {/* 
         <div className="py-6 ">
           <CounterSection/>
         </div> */}

@@ -2,8 +2,8 @@ import React from 'react'
 
 function Roadmap() {
   return (
-    <section className="mt-4 mb-3" id='roadmap'>
-      <div className=" mx-auto max-w-7xl mt-32">
+    <section className="mt-0 sm:mt-4 mb-3" id='roadmap'>
+      <div className=" mx-auto max-w-7xl mt-1 sm:mt-32">
         <div className="text-center text-3xl sm:text-5xl">
           <h1 className="text-[#fff] font-bold mb-4 font-bitsu">Road Map</h1>
           <div className="mt-20 max-w-5xl mx-auto grid sm:grid-cols-1 gap-y-10 relative px-5">

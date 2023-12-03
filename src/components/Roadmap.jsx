@@ -19,7 +19,7 @@ function Roadmap() {
               <div className="pl-[25px] order-2 sm:order-1 sm:pr-[60px] sm:w-1/2">
                 <RoadmapCard
                   text={
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i'
+                    'We began with research, assembled a team, and developed WhatBot. Beta testing ensured a solid foundation.'
                   }
                 />
               </div>
@@ -43,7 +43,7 @@ function Roadmap() {
               <div className="pl-[25px] sm:pl-[60px] sm:w-1/2">
                 <RoadmapCard
                   text={
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i'
+                    'WhatBot launched, enabling token creation and fair launch on Pinksale. Marketing efforts expanded our user base.'
                   }
                 />
               </div>
@@ -54,7 +54,7 @@ function Roadmap() {
               <div className="pl-[25px] order-2 sm:order-1 sm:pr-[60px] sm:w-1/2">
                 <RoadmapCard
                   text={
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i'
+                    'We shared revenue with token holders, listed on Uniswap, and formed strategic partnerships for ecosystem growth.'
                   }
                 />
               </div>

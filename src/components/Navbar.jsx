@@ -84,30 +84,7 @@ export default function Navbar() {
               {t("Buy ETHETF Token")}
             </Button> */}
 
-            <div className="flex max-lg:space-x-8 space-x-4 justify-center max-lg:[&>*]:invert">
-              <a
-                rel="noreferrer"
-                href="https://x.com/ethetf_token"
-                target="_blank"
-              >
-                <img
-                  src="/images/icons/twitter.svg"
-                  className="max-lg:h-8 h-6"
-                  alt=""
-                />
-              </a>
-              <a
-                rel="noreferrer"
-                href="https://t.me/ETHETF_Token"
-                target="_blank"
-              >
-                <img
-                  src="/images/icons/telegram.svg"
-                  className="max-lg:h-8 h-6"
-                  alt=""
-                />
-              </a>
-            </div>
+            
           </aside>
         </div>
       </header>

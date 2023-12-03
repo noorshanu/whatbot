@@ -5,7 +5,7 @@ function Tokonomics() {
     <section className=" token">
       <div className="container-wrapper">
         <div>
-          <h1 className="text-[#fff] text-5xl  font-bold my-12  ptext uppercase text-center font-bitsu">
+          <h1 className="text-[#fff] text-3xl sm:text-5xl  font-bold my-12  ptext uppercase text-center font-bitsu">
             Tokonomics
           </h1>
         </div>

@@ -8,7 +8,7 @@ function Hero() {
     <section className="hero-main relative">
       <div className="container-wrapper">
         <div className=" flex justify-start items-center flex-col sm:flex-row ">
-          <div className=" max-w-xl mt-[15%] sm:mt-[15%]">
+          <div className=" max-w-xl mt-[15%] sm:mt-[23%]">
             <h1 className=" text-white font-bitsu text-3xl sm:text-6xl font-normal pb-2">WHATBOT</h1>
             <p className=" font-poppins text-base sm:text-xl font-medium pb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -29,13 +29,13 @@ function Hero() {
         </div>
           </div>
           <div className=" relative">
-            <img src="images/coin-1.png" alt="" className=" mt-0 sm:mt-[20rem] floating" />
+            <img src="images/coin-1.png" alt="" className=" mt-0 sm:mt-[0rem] floating" />
             <img src="images/bot.svg" alt="" className="  h-[300px] block sm:hidden floating" />
 
           </div>
         </div>
       </div>
-      <img src="images/coin-2.png" alt="" className=" absolute top-[40%] right-[-2%] floating" />
+      <img src="images/coin-2.png" alt="" className=" absolute top-[20%] right-[-2%] floating" />
 
     </section>
   );

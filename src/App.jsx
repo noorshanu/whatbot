@@ -75,6 +75,9 @@ function App() {
         <div className="py-6 ">
           <Tokonomics />
         </div>
+        <div className="py-6 mt-4 sm:mt-20">
+          <SectionVideo />
+        </div>
         <div className="py-6 mb-12">
           <HowToUse />
         </div>

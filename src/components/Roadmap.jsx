@@ -21,6 +21,7 @@ function Roadmap() {
                   text={
                     'We began with research, assembled a team, and developed WhatBot. Beta testing ensured a solid foundation.'
                   }
+                  title={'Foundation & Beta'}
                 />
               </div>
               <img
@@ -45,6 +46,7 @@ function Roadmap() {
                   text={
                     'WhatBot launched, enabling token creation and fair launch on Pinksale. Marketing efforts expanded our user base.'
                   }
+                  title={'Launch & Growth'}
                 />
               </div>
             </div>
@@ -56,6 +58,7 @@ function Roadmap() {
                   text={
                     'We shared revenue with token holders, listed on Uniswap, and formed strategic partnerships for ecosystem growth.'
                   }
+                  title={'Expansion & Integration'}
                 />
               </div>
               <img
@@ -72,9 +75,12 @@ function Roadmap() {
 
 export default Roadmap
 
-let RoadmapCard = ({ text }) => {
+let RoadmapCard = ({ text,title }) => {
   return (
-    <div className=" px-[20px] py-[61px] sm:px-[48px] sm:py-12 md:py-[93px] sm:w-full  rounded-3xl flex justify-center items-center text-white bg-white bg-opacity-[0.03] roadmap-blur font-montserrat  text-base">
+    <div className=" px-[20px] py-[61px] sm:px-[48px] sm:py-12 md:py-[93px] sm:w-full  rounded-3xl flex-col flex justify-center items-center text-white bg-white bg-opacity-[0.03] roadmap-blur font-montserrat  text-base">
+     <h2 className=' font-bitsu text-base sm:text-2xl py-2'>
+      {title}
+     </h2>
       {text}
     </div>
   )

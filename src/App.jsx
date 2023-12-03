@@ -99,10 +99,10 @@ function App() {
         <div className="py-6 mb-12">
           <HowToUse />
         </div>
-
+{/* 
         <div className="py-6 ">
           <CounterSection/>
-        </div>
+        </div> */}
         <div className="py-6 ">
           <JoinNow />
         </div>

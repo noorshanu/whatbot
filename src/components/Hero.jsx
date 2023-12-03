@@ -9,11 +9,15 @@ function Hero() {
       <div className="container-wrapper">
         <div className=" flex justify-start items-center flex-col sm:flex-row ">
           <div className=" max-w-xl mt-[15%] sm:mt-[23%]">
-            <h1 className=" text-white font-bitsu text-3xl sm:text-6xl font-normal pb-2">WHATBOT</h1>
+            <h1 className=" text-white font-bitsu text-3xl sm:text-5xl font-medium pb-2">Unleash Your Crypto Potential With Ease !</h1>
             <p className=" font-poppins text-base sm:text-xl font-medium pb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam,
+            WhatBot is here to empower your crypto
+ journey. Whether you're a newbie or a seasoned pro,
+ we've got your back. Our user-friendly platform simplifies 
+token creation and management, ensuring
+ you have the keys to unlock your crypto 
+potential. Explore the possibilities with
+ WhatBot by your side.
             </p>
 
             <div className=" py-4 ">

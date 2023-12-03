@@ -116,12 +116,12 @@
 
 .how-card {
   border-radius: 20px;
-  background: #171818;
+  background: #000000a1;
   border: 1px solid #000000b7;
   box-shadow: 0px 0px 6px 6px rgba(255, 255, 255, 0.25);
-  width: 300px;
-  height: 300px;
-  padding: 40px 40px;
+  width: 370px;
+  height: 320px;
+  padding: 20px 10px;
 }
 
 .joinus {
@@ -132,7 +132,7 @@
 }
 
 .bg-2 {
-  background-image: url("/public/images/bg-2.svg");
+  background-image: url("/public/images/bg-main.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;

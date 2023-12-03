@@ -91,10 +91,7 @@ function HowToUse() {
         loop={true}
         className="py-5 [&_.swiper-slide]:!h-auto"
         modules={[Navigation,Autoplay, ]}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
+       
        
         navigation={{
           nextEl: "#nextEl",

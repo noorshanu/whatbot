@@ -8,11 +8,11 @@ function Hero() {
     <section className="hero-main relative">
       <div className="container-wrapper">
         <div className=" flex justify-start items-center flex-col sm:flex-row ">
-          <div className=" max-w-xl mt-[15%] sm:mt-[23%]">
-            <h1 className=" text-white font-bitsu text-3xl sm:text-5xl font-medium pb-2">
+          <div className=" max-w-xl mt-[15%] sm:mt-[17%]">
+            <h1 className=" text-white font-bitsu text-3xl sm:text-4xl font-medium pb-2">
               Unleash Your Crypto Potential With Ease !
             </h1>
-            <p className=" font-poppins text-base sm:text-xl font-medium pb-4">
+            <p className=" font-poppins text-base sm:text-sm font-light pb-4">
               WhatBot is here to empower your crypto journey. Whether you're a
               newbie or a seasoned pro, we've got your back. Our user-friendly
               platform simplifies token creation and management, ensuring you

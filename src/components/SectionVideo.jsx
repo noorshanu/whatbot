@@ -7,12 +7,12 @@ function SectionVideo() {
         <img
           src="images/smile.png"
           alt=""
-          className="h-[70px] absolute top-[-5%] LEFT-0 floating"
+          className="h-[70px] absolute top-[-5%] LEFT-0 floating sm:block hidden"
         />
         <img
           src="images/smile.png"
           alt=""
-          className="h-[70px] absolute top-[-5%] right-0 floating"
+          className="h-[70px] absolute top-[-5%] right-0 floating hidden sm:block"
         />
         <div className="w-full ">
           <video

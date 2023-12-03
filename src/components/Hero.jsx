@@ -7,7 +7,7 @@ function Hero() {
   return (
     <section className="hero-main relative">
       <div className="container-wrapper">
-        <div className=" flex justify-start items-center flex-col sm:flex-row ">
+        <div className=" flex justify-start items-center flex-col-reverse sm:flex-row ">
           <div className=" max-w-xl mt-[15%] sm:mt-[19%]">
             <h1 className=" text-white font-bitsu text-3xl sm:text-4xl font-medium pb-2">
               Unleash Your Crypto Potential With Ease !

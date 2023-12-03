@@ -3,7 +3,9 @@ import React from "react";
 function SectionVideo() {
   return (
     <section>
-      <div className="container-wrapper">
+      <div className="container-wrapper relative">
+      <img src="images/smile.png" alt="" className="h-[70px] absolute top-[-5%] LEFT-0 floating"/>
+        <img src="images/smile.png" alt="" className="h-[70px] absolute top-[-5%] right-0 floating"/>
         <div className="w-full ">
           <video
             autoPlay

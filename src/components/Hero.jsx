@@ -29,7 +29,7 @@ function Hero() {
               </a>
               <a
                 href="https://t.me/whatbotchat" target="_blank"
-                className="btn-main px-4 sm:px-10 py-3 font-bitsu text-base sm:text-xl flex items-center gap-3"
+                className="btn-main px-7 sm:px-10 py-3 font-bitsu text-base sm:text-xl flex items-center gap-3"
               >
                 {" "}
                 Join us <BiLogoTelegram />

@@ -23,13 +23,13 @@ function Hero() {
             <div className=" py-4 flex justify-start items-center gap-8 ">
               <a
                 href="/"
-                className="btn-main px-7 sm:px-10 py-3 mr-4 font-bitsu text-base sm:text-xl flex items-center gap-3"
+                className="btn-main px-4 sm:px-10 py-3 mr-4 font-bitsu text-base sm:text-xl flex items-center gap-3"
               >
                 Buy Now <img src="images/pinklogo.jpg" alt="" className="h-[24px]" />
               </a>
               <a
                 href="https://t.me/whatbotchat" target="_blank"
-                className="btn-main px-7 sm:px-10 py-3 font-bitsu text-base sm:text-xl flex items-center gap-3"
+                className="btn-main px-4 sm:px-10 py-3 font-bitsu text-base sm:text-xl flex items-center gap-3"
               >
                 {" "}
                 Join us <BiLogoTelegram />
@@ -61,12 +61,12 @@ function Hero() {
             <img
               src="images/coin-1.png"
               alt=""
-              className=" mt-0 sm:mt-[0rem] floating"
+              className=" mt-0 sm:mt-[0rem] floating hidden sm:block"
             />
             <img
               src="images/bot.svg"
               alt=""
-              className="  h-[300px] block sm:hidden floating"
+              className="  h-[250px] block sm:hidden floating"
             />
           </div>
         </div>
@@ -74,7 +74,7 @@ function Hero() {
       <img
         src="images/coin-2.png"
         alt=""
-        className=" absolute top-[20%] right-[-2%] floating"
+        className=" absolute top-[20%] right-[-2%] floating sm:block hidden"
       />
     </section>
   );

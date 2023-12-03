@@ -8,7 +8,7 @@ function Hero() {
     <section className="hero-main relative">
       <div className="container-wrapper">
         <div className=" flex justify-start items-center flex-col sm:flex-row ">
-          <div className=" max-w-xl mt-[15%] sm:mt-[17%]">
+          <div className=" max-w-xl mt-[15%] sm:mt-[19%]">
             <h1 className=" text-white font-bitsu text-3xl sm:text-4xl font-medium pb-2">
               Unleash Your Crypto Potential With Ease !
             </h1>
@@ -28,11 +28,11 @@ function Hero() {
                 Buy Now <img src="images/pinklogo.jpg" alt="" className="h-[24px]" />
               </a>
               <a
-                href="/"
+                href="https://t.me/whatbotchat" target="_blank"
                 className="btn-main px-7 sm:px-10 py-3 font-bitsu text-base sm:text-xl flex items-center gap-3"
               >
                 {" "}
-                Join us <img src="images/linktree.png" alt="" />
+                Join us <BiLogoTelegram />
               </a>
             </div>
 

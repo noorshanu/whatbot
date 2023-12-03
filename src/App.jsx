@@ -8,6 +8,7 @@ import JoinNow from "./components/JoinNow";
 import Footer from "./components/Footer";
 import SectionVideo from "./components/SectionVideo";
 import Tokonomics from "./components/Tokonomics";
+import CounterSection from "./components/CounterSection";
 
 const StarField = () => {
   const wH = window.innerHeight;
@@ -76,21 +77,29 @@ function App() {
           <Tokonomics />
         </div>
         <div className="py-6 mt-4 sm:mt-20">
-        <section>
-    <div className='container-wrapper'>
-
-      <div className='w-full '>
-      <video autoPlay loop muted playsInline className="mx-auto video-bg border border-[#aeaeae] w-full">
-          <source src="images/video-bg2.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-
-    </div>
-</section>
+          <section>
+            <div className="container-wrapper">
+              <div className="w-full ">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="mx-auto video-bg border border-[#aeaeae] w-full"
+                >
+                  <source src="images/video-bg2.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </section>
         </div>
         <div className="py-6 mb-12">
           <HowToUse />
+        </div>
+
+        <div className="py-6 ">
+          <CounterSection/>
         </div>
         <div className="py-6 ">
           <JoinNow />

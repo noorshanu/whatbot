@@ -20,19 +20,19 @@ function Hero() {
               possibilities with WhatBot by your side.
             </p>
 
-            <div className=" py-4 ">
+            <div className=" py-4 flex justify-start items-center gap-8 ">
               <a
                 href="/"
-                className="btn-main px-7 sm:px-14 py-3 mr-4 font-bitsu text-base sm:text-xl"
+                className="btn-main px-7 sm:px-10 py-3 mr-4 font-bitsu text-base sm:text-xl flex items-center gap-3"
               >
-                Buy Now
+                Buy Now <img src="images/pinklogo.jpg" alt="" className="h-[24px]" />
               </a>
               <a
                 href="/"
-                className="btn-main px-7 sm:px-14 py-3 font-bitsu text-base sm:text-xl"
+                className="btn-main px-7 sm:px-10 py-3 font-bitsu text-base sm:text-xl flex items-center gap-3"
               >
                 {" "}
-                Join us
+                Join us <img src="images/linktree.png" alt="" />
               </a>
             </div>
 

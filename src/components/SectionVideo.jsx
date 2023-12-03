@@ -20,7 +20,7 @@ function SectionVideo() {
         </div>
 
 
-        <div className=" py-4 mx-auto flex justify-evenly items-center gap-8 ">
+        <div className=" py-4 mt-8 mx-auto flex justify-evenly items-center gap-8 ">
               <a
                 href="/"
                 className="btn-main px-7 sm:px-10 py-3 mr-4 font-bitsu text-base sm:text-xl flex items-center gap-3"

@@ -115,16 +115,38 @@
 }
 
 .how-card {
+  position: relative;
   border-radius: 20px;
-  background: #000000a1;
+  background: #000000;
   border: 1px solid #000000b7;
   box-shadow: 0px 0px 6px 6px rgba(255, 255, 255, 0.25);
   width: 340px;
-  height: 320px;
+  height: 340px;
   margin: auto;
-  padding: 10px 15px;
+  overflow: hidden;
+  padding: 10px 20px;
+  
+}
+.how-card::before{
+content: '';
+position: absolute;
+width: 340px;
+height: 340px;
+background: radial-gradient(
+  circle,
+  rgba(63, 94, 251, 1) 0%,
+  rgba(20, 62, 90, 1) 100%
+);
+animation: rotates 6s linear infinite;
 }
 
+.how-card::after{
+  content: '';
+  position: absolute;
+  background: #000000 ;
+  inset: 3px;
+  border-radius: 20px;
+}
 .joinus {
   border-radius: 20px;
   background: #171818;
@@ -235,5 +257,17 @@ body {
   }
   100% {
     transform: translate(0, -0px);
+  }
+}
+
+@keyframes rotates{
+  0%{
+      transform: rotate(0deg);
+  }
+  50%{
+      transform: rotate(180deg);
+  }
+  100%{
+      transform: rotate(360deg);
   }
 }

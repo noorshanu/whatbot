@@ -66,8 +66,8 @@ const Card = ({ title, subTitle }) => {
   return (
     <div>
     <div className="how-card h-full">
-      <h1 className="text-white font-bitsu text-4xl pb-4"> {title}</h1>
-      <p>
+      <h1 className="text-white font-bitsu text-4xl pb-4 relative z-10"> {title}</h1>
+      <p className="relative z-10">
        {subTitle}
       </p>
     </div>

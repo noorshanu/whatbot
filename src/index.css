@@ -271,3 +271,15 @@ body {
       transform: rotate(360deg);
   }
 }
+
+@media (max-width:768px) {
+  
+.hero-main {
+  background-image: url("/public/images/hero-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding-bottom: 20px;
+}
+  
+}

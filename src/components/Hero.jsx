@@ -22,7 +22,7 @@ function Hero() {
 
             <div className=" py-4 flex justify-start items-center gap-8 ">
               <a
-                href="/"
+                href="https://www.pinksale.finance/launchpad/0x628b57c642Dd1c05e4c6054F488c128D8FDd7dCF?chain=ETH" target="_blank"
                 className="btn-main px-4 sm:px-10 py-3 mr-4 font-bitsu text-base sm:text-xl flex items-center gap-3"
               >
                 Buy Now <img src="images/pinklogo.jpg" alt="" className="h-[24px]" />

@@ -9,7 +9,7 @@
   src: url("/fonts/Druk.ttf");
 }
 
-.Cairo {
+.font-cairo {
   font-family: 'Cairo', sans-serif;
 }
 .font-druk {
@@ -63,13 +63,16 @@
   html,
   body {
     @apply bg-body text-text;
+    font-family: 'Cairo', sans-serif;
   }
 
   .container-wrapper {
     @apply max-w-[1140px] min-[1440px]:max-w-[1320px] w-full mx-auto px-4 lg:px-2;
   }
 }
-
+body{
+  font-family: 'Cairo', sans-serif !important;
+}
 .txt-color{
   background: var(--1, linear-gradient(99deg, #F26EA8 0%, #FAF920 119.65%));
 background-clip: text;
@@ -161,10 +164,10 @@ animation: rotates 6s linear infinite;
   border-radius: 20px;
 }
 .joinus {
-  border-radius: 20px;
+  border-radius: 33px;
   background: #171818;
   border: 1px solid #000000b7;
-  box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.25);
+  
 }
 
 .bg-2 {

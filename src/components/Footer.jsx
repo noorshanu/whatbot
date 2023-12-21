@@ -17,11 +17,14 @@ function Footer() {
             <a href="/" className=' text-3xl text-white hover:text-[#3557d5]'><FaMedium /></a>
 
         </div>
-        <p className=' text-[#747474] text-sm font-semibold'>
-        Copyright WhatBot - All right reserved
+        <div className=' border-t border-[#393939]'>
+        <p className=' text-[#747474] text-sm font-semibold font-c pb-2 py-6'>
+        © Copyright 2023, All Rights Reserved by  WhatBot 
         </p>
+        </div>
+       
     </footer>
-<img src="images/blur.png" alt="" className=' absolute left-0 -bottom-[12%]' />
+
   </section>
   )
 }

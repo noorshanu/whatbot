@@ -9,6 +9,8 @@ export default {
       "open-sans": "'Open Sans', sans-serif",
       poppins: "'Poppins', sans-serif",
       druk:'druk',
+      cairo:'cairo'
+
     },
     colors: {
       white: "white",

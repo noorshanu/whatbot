@@ -4,18 +4,14 @@ function SectionVideo() {
   return (
     <section>
       <div className="container-wrapper relative">
-        <img
-          src="images/smile.png"
-          alt=""
-          className="h-[70px] absolute top-[-5%] LEFT-0 floating sm:block hidden"
-        />
-        <img
-          src="images/smile.png"
-          alt=""
-          className="h-[70px] absolute top-[-5%] right-0 floating hidden sm:block"
-        />
-        <div className="w-full ">
-          <video
+   <div>
+    <h1 className=" font-druk text-5xl uppercase text-center">
+      partne<span className="txt-color font-druk text-5xl uppercase">rship</span>
+    </h1>
+   </div>
+        <div className="w-full mx-auto ">
+          <img src="images/partner.png" alt="" className="mx-auto -mt-16" />
+          {/* <video
             autoPlay
             loop
             muted
@@ -24,22 +20,24 @@ function SectionVideo() {
           >
             <source src="images/video-bg.mp4" type="video/mp4" />
             Your browser does not support the video tag.
-          </video>
+          </video> */}
         </div>
 
-        <div className=" py-4 mt-2 sm:mt-8 mx-auto flex justify-evenly items-center gap-8 ">
+        <div className=" py-4 mt-2 sm:mt-8 mx-auto flex justify-center items-center gap-8 ">
           <a
             href="/"
-            className="btn-main px-7 sm:px-10 py-3 mr-4 font-bitsu text-base sm:text-xl flex items-center gap-3"
+            className="bg-[#FFF] px-7 sm:px-14 py-2 mr-4 font-bitsu text-base sm:text-xl flex items-center rounded-md gap-3 uppercase text-black"
           >
-            Audit <img src="images/coinsult.png" alt="" className="h-[14px] sm:h-[24px]" />
+            Audit 
+            {/* <img src="images/coinsult.png" alt="" className="h-[14px] sm:h-[24px]" /> */}
           </a>
           <a
             href="/"
-            className="btn-main px-7 sm:px-10 py-3 font-bitsu text-base sm:text-xl flex items-center gap-3"
+            className="bg-[#FFFFFF14] px-7 sm:px-14 py-2 font-bitsu text-base sm:text-xl rounded-md flex items-center gap-3 uppercase"
           >
             {" "}
-            Kyc <img src="images/solidp.png" alt="" className="h-[14px] sm:h-[24px]" />
+            Kyc 
+            {/* <img src="images/solidp.png" alt="" className="h-[14px] sm:h-[24px]" /> */}
           </a>
         </div>
       </div>

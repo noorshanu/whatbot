@@ -1,19 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
-  font-family: "bitsu";
-  src: url("/fonts/BITSUMIS.TTF");
+  font-family: "druk";
+  src: url("/fonts/Druk.ttf");
 }
 
-.poppins {
-  font-family: "Poppins", sans-serif;
+.Cairo {
+  font-family: 'Cairo', sans-serif;
 }
-.font-bitsu {
-  font-family: "bitsu";
+.font-druk {
+  font-family: "druk";
 }
 
 .lh-0-5 {
@@ -70,8 +70,21 @@
   }
 }
 
+.txt-color{
+  background: var(--1, linear-gradient(99deg, #F26EA8 0%, #FAF920 119.65%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.txt-color2{
+ 
+  background: var(--Linear, linear-gradient(87deg, #FFF 47.46%, #F376A1 67.19%, #FB7F35 92.56%, #F8D148 92.56%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 .hero-main {
-  background-image: url("/public/images/hero-image.png");
+  background-image: url("/public/images/bg-main.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -155,10 +168,14 @@ animation: rotates 6s linear infinite;
 }
 
 .bg-2 {
-  background-image: url("/public/images/bg-main.png");
+  /* background-image: url("/public/images/bg-main.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 100%; */
+}
+.btn-main1{
+  border-radius: 6px;
+background: var(--1, linear-gradient(99deg, #F26EA8 0%, #FAF920 119.65%));
 }
 
 html,
@@ -270,6 +287,16 @@ body {
   100%{
       transform: rotate(360deg);
   }
+}
+
+#brand {
+	filter: grayscale(100%); opacity :0.45;
+	
+}
+
+#brand:hover{
+	filter: grayscale(0%); opacity: 1;
+  background-color: #000000;
 }
 
 @media (max-width:768px) {

@@ -8,13 +8,13 @@ export default {
     fontFamily: {
       "open-sans": "'Open Sans', sans-serif",
       poppins: "'Poppins', sans-serif",
-      bitsu:'bitsu',
+      druk:'druk',
     },
     colors: {
       white: "white",
       black: "black",
       transparent: "transparent",
-      body: "#010B14",
+      body: "#000206",
       text: "#fff",
       "text-2": "#20262b",
       green: "#0072ff",

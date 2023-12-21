@@ -9,7 +9,7 @@ function Hero() {
       <div className="container-wrapper">
         <div className=" flex justify-start items-center flex-col-reverse sm:flex-row ">
           <div className=" max-w-xl mt-[15%] sm:mt-[19%]">
-            <h1 className=" text-white font-bitsu text-3xl sm:text-4xl font-medium pb-2">
+            <h1 className=" text-white font-druk txt-color text-3xl sm:text-4xl font-medium pb-2">
               Unleash Your Crypto Potential With Ease !
             </h1>
             <p className=" font-poppins text-base sm:text-sm font-light pb-4">
@@ -58,11 +58,11 @@ function Hero() {
             </div>
           </div>
           <div className=" relative">
-            <img
+            {/* <img
               src="images/coin-1.png"
               alt=""
               className=" mt-0 sm:mt-[0rem] floating hidden sm:block"
-            />
+            /> */}
             <img
               src="images/bot.svg"
               alt=""
@@ -71,11 +71,11 @@ function Hero() {
           </div>
         </div>
       </div>
-      <img
+      {/* <img
         src="images/coin-2.png"
         alt=""
         className=" absolute top-[20%] right-[-2%] floating sm:block hidden"
-      />
+      /> */}
     </section>
   );
 }

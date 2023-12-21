@@ -41,7 +41,7 @@ export default function Navbar() {
           >
             <a
             href="https://drive.google.com/file/d/1wuCwbBg-qhnoovqr1lYCWdyIuLiwUhCd/view?usp=drivesdk" target="_blank"
-              className="font-medium cursor-pointer text-white uppercase font-bitsu text-xl"
+              className="font-medium cursor-pointer text-white uppercase font-cairo text-sm"
               onClick={() => setSidebarVisibility(false)}
             >
               Whitepaper
@@ -49,7 +49,7 @@ export default function Navbar() {
             <a
               onClick={closeSidebar}
               href="#roadmap"
-              className="font-medium cursor-pointer uppercase font-bitsu text-xl"
+              className="font-medium cursor-pointer uppercase font-cairo text-sm"
             >
               Roadmap
             </a>
@@ -58,7 +58,7 @@ export default function Navbar() {
               href="#token"
               onClick={closeSidebar}
               
-              className="font-medium cursor-pointer uppercase font-bitsu text-xl"
+              className="font-medium cursor-pointer uppercase font-cairo text-sm"
             >
               Tokenomic
             </a>
@@ -67,7 +67,7 @@ export default function Navbar() {
               onClick={closeSidebar}
             
               href="#howto"
-              className="font-medium cursor-pointer text-white uppercase font-bitsu text-xl"
+              className="font-medium cursor-pointer text-white uppercase font-cairo text-sm"
             >
               how to use
             </a>

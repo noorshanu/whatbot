@@ -76,19 +76,10 @@ function App() {
         <div className="py-6 ">
           <Tokonomics />
         </div>
-        <div className="py-6 mt-4 sm:mt-20">
+        <div className="py-6 mt-4 sm:mt-10">
           <section>
             <div className="container-wrapper relative">
-              <img
-                src="images/smile.png"
-                alt=""
-                className="h-[70px] absolute top-[-5%] LEFT-0 floating hidden sm:block"
-              />
-              <img
-                src="images/smile.png"
-                alt=""
-                className="h-[70px] absolute top-[-5%] right-0 floating hidden sm:block"
-              />
+          
               <div className="w-full ">
                 <video
                   autoPlay

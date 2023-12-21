@@ -67,7 +67,7 @@
   }
 
   .container-wrapper {
-    @apply max-w-[1140px] min-[1440px]:max-w-[1320px] w-full mx-auto px-4 lg:px-2;
+    @apply max-w-[1140px] min-[1440px]:max-w-[1220px] w-full mx-auto px-4 lg:px-2;
   }
 }
 body{

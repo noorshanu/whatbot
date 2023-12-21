@@ -12,7 +12,7 @@ function Hero() {
             <h1 className=" text-white font-druk txt-color text-3xl sm:text-4xl font-medium pb-2">
               Unleash Your Crypto Potential With Ease !
             </h1>
-            <p className=" font-poppins text-base sm:text-sm font-light pb-4">
+            <p className=" font-cairo font-normal  text-base sm:text-base  pb-4">
               WhatBot is here to empower your crypto journey. Whether you're a
               newbie or a seasoned pro, we've got your back. Our user-friendly
               platform simplifies token creation and management, ensuring you
@@ -36,7 +36,7 @@ function Hero() {
               </a>
             </div>
 
-            <div className="flex justify-start items-center gap-6 py-5">
+            {/* <div className="flex justify-start items-center gap-6 py-5">
               <a
                 href="https://x.com/whatbotofficial" target="_blank"
                 className=" text-3xl text-white hover:text-[#3557d5] "
@@ -55,7 +55,7 @@ function Hero() {
               <a href="/" className=" text-3xl text-white hover:text-[#3557d5]">
                 <FaMedium />
               </a>
-            </div>
+            </div> */}
           </div>
           <div className=" relative">
             {/* <img

@@ -8,8 +8,8 @@ function Hero() {
     <section className="hero-main relative">
       <div className="container-wrapper">
         <div className=" flex justify-start items-center flex-col-reverse sm:flex-row ">
-          <div className=" max-w-3xl mt-[15%] sm:mt-[19%]">
-            <h1 className=" text-white font-druk txt-color text-3xl sm:text-5xl font-medium pb-2">
+          <div className=" max-w-3xl mt-[15%] sm:mt-[25%]">
+            <h1 className=" text-white font-druk txt-color text-3xl sm:text-5xl font-medium pb-8">
               Unleash Your Crypto Potential With Ease !
             </h1>
             <p className=" font-cairo font-normal  text-base sm:text-base  pb-4">
@@ -23,13 +23,13 @@ function Hero() {
             <div className=" py-4 flex justify-start items-center gap-8 ">
               <a
                 href="https://www.pinksale.finance/launchpad/0x628b57c642Dd1c05e4c6054F488c128D8FDd7dCF?chain=ETH" target="_blank"
-                className="btn-main px-4 sm:px-10 py-3 mr-4 font-bitsu text-base sm:text-xl flex items-center gap-3"
+                className="btn-main px-4 sm:px-10 py-3 mr-4 font-cairo font-semibold text-base sm:text-xl flex items-center text-black gap-3"
               >
                 Buy Now <img src="images/pinklogo.jpg" alt="" className="h-[24px]" />
               </a>
               <a
                 href="https://t.me/whatbotchat" target="_blank"
-                className="btn-main px-7 sm:px-10 py-3 font-bitsu text-base sm:text-xl flex items-center gap-3"
+                className="btn-main px-7 sm:px-10 py-3 font-cairo font-semibold text-base sm:text-xl flex text-black items-center gap-3"
               >
                 {" "}
                 Join us <BiLogoTelegram />

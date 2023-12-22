@@ -5,7 +5,9 @@ function Roadmap() {
     <section className="mt-0 sm:mt-4 mb-3" id='roadmap'>
       <div className=" mx-auto max-w-7xl mt-1 sm:mt-32">
         <div className="text-center text-3xl sm:text-5xl">
-          <h1 className="text-[#fff] font-bold mb-4 font-bitsu">Road Map</h1>
+        <h1 className=" font-druk text-5xl uppercase text-center">
+     Road<span className="txt-color font-druk text-5xl uppercase">Map</span>
+    </h1>
           <div className="mt-20 max-w-5xl mx-auto grid sm:grid-cols-1 gap-y-10 relative px-5">
           <img className='absolute top-[470px] right-0 h-auto w-[100px] hidden sm:flex' src=' images/roadmap-bg-pattern.svg'/>
             {/* line */}

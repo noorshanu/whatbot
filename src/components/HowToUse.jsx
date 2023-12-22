@@ -79,10 +79,10 @@ function HowToUse() {
   return (
     <section id="howto">
       <div className="container-wrapper relative z-50">
-        <div>
-          <h1 className="text-[#fff] text-3xl sm:text-5xl  font-bold my-12  ptext uppercase text-center font-bitsu">
-            How To use
-          </h1>
+        <div className=" pt-4 pb-14">
+        <h1 className=" font-druk text-5xl uppercase text-center">
+     How T<span className="txt-color font-druk text-5xl uppercase">o Use</span>
+    </h1>
         </div>
 
         <Swiper

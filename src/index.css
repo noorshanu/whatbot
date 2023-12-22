@@ -111,9 +111,9 @@ background: var(--1, linear-gradient(99deg, #F26EA8 0%, #FAF920 119.65%))
 .how-card {
   position: relative;
   border-radius: 20px;
-  background: #000000;
+  background: #191B23;
   border: 1px solid #000000b7;
-  box-shadow: 0px 0px 6px 6px rgba(255, 255, 255, 0.25);
+
   width: 340px;
   height: 340px;
   margin: auto;
@@ -125,19 +125,15 @@ background: var(--1, linear-gradient(99deg, #F26EA8 0%, #FAF920 119.65%))
 content: '';
 position: absolute;
 width: 340px;
-height: 340px;
-background: radial-gradient(
-  circle,
-  rgba(63, 94, 251, 1) 0%,
-  rgba(20, 62, 90, 1) 100%
-);
+height: 390px;
+background: var(--1, linear-gradient(99deg, #F26EA8 0%, #FAF920 119.65%));
 animation: rotates 6s linear infinite;
 }
 
 .how-card::after{
   content: '';
   position: absolute;
-  background: #000000 ;
+  background: #191B23;
   inset: 3px;
   border-radius: 20px;
 }

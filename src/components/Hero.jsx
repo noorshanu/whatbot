@@ -36,26 +36,26 @@ function Hero() {
               </a>
             </div>
 
-            {/* <div className="flex justify-start items-center gap-6 py-5">
+            <div className="flex flex-col absolute left-[5%] top-[30%] justify-start items-center gap-6 py-5">
               <a
                 href="https://x.com/whatbotofficial" target="_blank"
-                className=" text-3xl text-white hover:text-[#3557d5] "
+                className=" text-3xl  btn-so "
               >
                 <AiOutlineTwitter />
               </a>
               <a
                 href="https://t.me/whatbotchat" target="_blank"
-                className=" text-3xl text-white hover:text-[#3557d5] "
+                className=" text-3xl btn-so "
               >
                 <BiLogoTelegram />
               </a>
-              <a href="/" className=" text-3xl text-white hover:text-[#3557d5]">
+              <a href="/" className=" text-3xl btn-so">
                 <FaInstagram />
               </a>
-              <a href="/" className=" text-3xl text-white hover:text-[#3557d5]">
+              <a href="/" className=" text-3xl btn-so">
                 <FaMedium />
               </a>
-            </div> */}
+            </div>
           </div>
           <div className=" relative">
             {/* <img

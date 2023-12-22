@@ -150,6 +150,19 @@ animation: rotates 6s linear infinite;
 background: var(--1, linear-gradient(99deg, #F26EA8 0%, #FAF920 119.65%));
 }
 
+
+.btn-so{
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.09);
+  color: #c5c516;
+  padding: 5px;
+}
+
+.btn-so:hover{
+  border-radius: 6px;
+background: var(--1, linear-gradient(99deg, #F26EA8 0%, #FAF920 119.65%));
+color: #000;
+}
 html,
 body {
   width: 100%;

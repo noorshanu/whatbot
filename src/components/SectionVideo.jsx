@@ -2,7 +2,8 @@ import React from "react";
 
 function SectionVideo() {
   return (
-    <section>
+    <section className=" relative">
+      <img src="images/part1.png" alt="" className=" absolute -left-[14%] -top-[25%]" />
       <div className="container-wrapper relative">
    <div>
     <h1 className=" font-druk text-5xl uppercase text-center">

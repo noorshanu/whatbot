@@ -94,36 +94,14 @@ background-clip: text;
 }
 
 .btn-main {
-  background: rgb(63, 94, 251);
-  background: radial-gradient(
-    circle,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(20, 62, 90, 1) 100%
-  );
-  -webkit-box-shadow: 0px 14px 13px -10px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 14px 13px -10px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 14px 13px -10px rgba(0, 0, 0, 0.75);
-  border: 0.3px solid #666;
-  border-radius: 20px;
+  border-radius: 6px;
+background: var(--1, linear-gradient(99deg, #F26EA8 0%, #FAF920 119.65%))
 }
 
-.nav-color {
-  background: linear-gradient(
-    88deg,
-    rgb(0 3 4) 4.28%,
-    #010b13 17.2%,
-    #010b14 33.91%,
-    #010b14 33.91%,
-    rgb(1 1 1) 72.9%
-  );
-}
+
 
 .btn-main:hover {
-  background: radial-gradient(
-    circle,
-    rgba(20, 62, 90, 1) 0%,
-    rgba(63, 94, 251, 1) 100%
-  );
+  background: var(--1, linear-gradient(99deg, #F26EA8 50%, #FAF920 119.65%))
 }
 .video-bg {
   border-radius: 46px;
@@ -299,7 +277,10 @@ body {
 
 #brand:hover{
 	filter: grayscale(0%); opacity: 1;
-  background-color: #000000;
+  background-image: url('../public/images/glow.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @media (max-width:768px) {

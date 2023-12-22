@@ -51,7 +51,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="h-navbar-height"></div>
+     
       <div className="">
         <Hero />
       </div>

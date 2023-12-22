@@ -25,7 +25,7 @@ function SectionVideo() {
           </video> */}
         </div>
 
-        <div className=" py-4 mt-2 sm:mt-8 mx-auto flex justify-center items-center gap-8 ">
+        <div className=" py-4 mt-2 sm:mt-8 mx-auto flex justify-center items-center gap-2 ">
           <a
             href="/"
             className="bg-[#FFF] px-7 sm:px-14 py-2 mr-4 font-bitsu text-base sm:text-xl flex items-center rounded-md gap-3 uppercase text-black"

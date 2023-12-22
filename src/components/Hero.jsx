@@ -8,8 +8,8 @@ function Hero() {
     <section className="hero-main relative">
       <div className="container-wrapper">
         <div className=" flex justify-start items-center flex-col-reverse sm:flex-row ">
-          <div className=" max-w-xl mt-[15%] sm:mt-[19%]">
-            <h1 className=" text-white font-druk txt-color text-3xl sm:text-4xl font-medium pb-2">
+          <div className=" max-w-3xl mt-[15%] sm:mt-[19%]">
+            <h1 className=" text-white font-druk txt-color text-3xl sm:text-5xl font-medium pb-2">
               Unleash Your Crypto Potential With Ease !
             </h1>
             <p className=" font-cairo font-normal  text-base sm:text-base  pb-4">

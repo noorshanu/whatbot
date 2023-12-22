@@ -144,12 +144,7 @@ animation: rotates 6s linear infinite;
   
 }
 
-.bg-2 {
-  /* background-image: url("/public/images/bg-main.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%; */
-}
+
 .btn-main1{
   border-radius: 6px;
 background: var(--1, linear-gradient(99deg, #F26EA8 0%, #FAF920 119.65%));

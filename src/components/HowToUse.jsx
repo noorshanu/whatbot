@@ -66,7 +66,7 @@ const Card = ({ title, subTitle }) => {
   return (
     <div>
     <div className="how-card h-full">
-      <h1 className="text-white font-bitsu text-4xl pb-4 relative z-10"> {title}</h1>
+      <h1 className="text-white text-2xl pb-4 relative z-10 flex items-center capitalize gap-3" > <img src="images/check.svg" alt="" /> {title}</h1>
       <p className="relative z-10">
        {subTitle}
       </p>

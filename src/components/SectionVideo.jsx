@@ -4,6 +4,7 @@ function SectionVideo() {
   return (
     <section className=" relative">
       <img src="images/part1.png" alt="" className=" absolute -left-[14%] -top-[25%]" />
+      <img src="images/part2.png" alt="" className=" absolute  -right-8 -top-12" />
       <div className="container-wrapper relative">
    <div>
     <h1 className=" font-druk text-5xl uppercase text-center">

@@ -23,20 +23,20 @@ function Hero() {
             <div className=" py-4 flex justify-start items-center gap-8 ">
               <a
                 href="https://www.pinksale.finance/launchpad/0x628b57c642Dd1c05e4c6054F488c128D8FDd7dCF?chain=ETH" target="_blank"
-                className="btn-main px-4 sm:px-10 py-3 mr-4 font-cairo font-semibold text-base sm:text-xl flex items-center text-black gap-3"
+                className="bg-white rounded-md px-4 sm:px-10 py-3 mr-4 font-cairo font-semibold text-base sm:text-xl flex items-center text-black gap-3"
               >
                 Buy Now <img src="images/pinklogo.jpg" alt="" className="h-[24px]" />
               </a>
               <a
                 href="https://t.me/whatbotchat" target="_blank"
-                className="btn-main px-7 sm:px-10 py-3 font-cairo font-semibold text-base sm:text-xl flex text-black items-center gap-3"
+                className="bg-[#FFFFFF14] rounded-md px-7 sm:px-10 py-3 font-cairo font-semibold text-base sm:text-xl flex text-white items-center gap-3"
               >
                 {" "}
                 Join us <BiLogoTelegram />
               </a>
             </div>
 
-            <div className="flex flex-col absolute left-[5%] top-[30%] justify-start items-center gap-6 py-5">
+            <div className=" hidden sm:flex flex-col absolute left-[5%] top-[30%] justify-start items-center gap-6 py-5">
               <a
                 href="https://x.com/whatbotofficial" target="_blank"
                 className=" text-3xl  btn-so "

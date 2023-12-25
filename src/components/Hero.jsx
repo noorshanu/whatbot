@@ -19,13 +19,14 @@ function Hero() {
               have the keys to unlock your crypto potential. Explore the
               possibilities with WhatBot by your side.
             </p>
+            <p>Contract: 0x4F27633e8b1CFd5E043c68cDCD81C0bbfDB1cf14</p>
 
             <div className=" py-4 flex justify-start items-center gap-8 ">
               <a
-                href="https://www.pinksale.finance/launchpad/0x628b57c642Dd1c05e4c6054F488c128D8FDd7dCF?chain=ETH" target="_blank"
+                href="https://www.dextools.io/app/en/ether/pair-explorer/0x0ac9bf2ea91e74b9677b58aa062632a8c06fd575" target="_blank"
                 className="bg-white rounded-md px-4 sm:px-10 py-3 mr-4 font-cairo font-semibold text-base sm:text-xl flex items-center text-black gap-3"
               >
-                Buy Now <img src="images/pinklogo.jpg" alt="" className="h-[24px]" />
+                Buy Now <img src="images/dexo.png" alt="" className="h-[24px]" />
               </a>
               <a
                 href="https://t.me/whatbotchat" target="_blank"

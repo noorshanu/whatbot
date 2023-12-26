@@ -12,7 +12,7 @@ function Footer() {
 
         <div className='flex justify-center items-center gap-6 py-5 relative z-50'>
             <a href="https://x.com/whatbotofficial" target='_blank' className=' text-3xl text-white hover:text-[#3557d5] '><AiOutlineTwitter/></a>
-            <a href="https://t.me/whatbotchat" target='_blank' className=' text-3xl text-white hover:text-[#3557d5] '><BiLogoTelegram /></a>
+            <a href="https://t.me/WhatBotOfficial" target='_blank' className=' text-3xl text-white hover:text-[#3557d5] '><BiLogoTelegram /></a>
             <a href="/" className=' text-3xl text-white hover:text-[#3557d5]'><FaInstagram /></a>
             <a href="/" className=' text-3xl text-white hover:text-[#3557d5]'><FaMedium /></a>
 

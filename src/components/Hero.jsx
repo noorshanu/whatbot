@@ -29,7 +29,7 @@ function Hero() {
                 Buy Now <img src="images/dexo.png" alt="" className="h-[24px]" />
               </a>
               <a
-                href="https://t.me/whatbotchat" target="_blank"
+                href="https://t.me/WhatBotOfficial" target="_blank"
                 className="bg-[#FFFFFF14] rounded-md px-7 sm:px-10 py-3 font-cairo font-semibold text-base sm:text-xl flex text-white items-center gap-3"
               >
                 {" "}

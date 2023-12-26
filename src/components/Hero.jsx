@@ -45,7 +45,7 @@ function Hero() {
                 <AiOutlineTwitter />
               </a>
               <a
-                href="https://t.me/whatbotchat" target="_blank"
+                href="https://t.me/WhatBotOfficial" target="_blank"
                 className=" text-3xl btn-so "
               >
                 <BiLogoTelegram />
